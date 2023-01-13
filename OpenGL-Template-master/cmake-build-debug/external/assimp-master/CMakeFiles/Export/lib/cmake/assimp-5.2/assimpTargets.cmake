@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget assimp::zlibstatic assimp::assimp)
+foreach(_expectedTarget assimp::assimp)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -50,15 +50,12 @@ if(_IMPORT_PREFIX STREQUAL "/")
   set(_IMPORT_PREFIX "")
 endif()
 
-# Create imported target assimp::zlibstatic
-add_library(assimp::zlibstatic STATIC IMPORTED)
-
 # Create imported target assimp::assimp
 add_library(assimp::assimp STATIC IMPORTED)
 
 set_target_properties(assimp::assimp PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "assimp::zlibstatic;-static-libgcc;-static-libstdc++;-Wl,-Bstatic;-lstdc++;-lwinpthread"
+  INTERFACE_LINK_LIBRARIES "\$<\$<NOT:\$<CONFIG:DEBUG>>:/usr/lib/x86_64-linux-gnu/libz.a>;\$<\$<CONFIG:DEBUG>:/usr/lib/x86_64-linux-gnu/libz.a>;/usr/lib/x86_64-linux-gnu/librt.so"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

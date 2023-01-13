@@ -1,8 +1,8 @@
-# Install script for directory: F:/CLionProjects/3D-graphics/OpenGL-Template-master/external/assimp-master
+# Install script for directory: /home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/external/assimp-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL-Template")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,6 +27,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -34,13 +39,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/root/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.5-devx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES
-    "F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/generated/assimpConfig.cmake"
-    "F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/generated/assimpConfigVersion.cmake"
+    "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/generated/assimpConfig.cmake"
+    "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/generated/assimpConfigVersion.cmake"
     )
 endif()
 
@@ -48,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.5-devx" OR NOT CMAKE_I
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets.cmake"
-         "F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
+         "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2/assimpTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -57,16 +62,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.5-devx" OR NOT CMAKE_I
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/assimp-5.2" TYPE FILE FILES "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/CMakeFiles/Export/lib/cmake/assimp-5.2/assimpTargets-debug.cmake")
   endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp5.2.5-devx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/assimp.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/contrib/zlib/cmake_install.cmake")
-  include("F:/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/code/cmake_install.cmake")
+  include("/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/code/cmake_install.cmake")
+  include("/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/assimp-master/test/cmake_install.cmake")
 
 endif()
 

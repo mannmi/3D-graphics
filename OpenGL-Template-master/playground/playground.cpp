@@ -1,5 +1,4 @@
 #include "playground.h"
-//#include "libs/assimp-src/include/assimp/Importer.hpp"
 
 // Include standard headers
 #include <stdio.h>
@@ -23,20 +22,23 @@ using namespace glm;
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 #include <iostream>
+#include <vector>
 
 
 // Create the necessary data structures to store the vertex, texture, and normal information
 std::vector<float> vertices;
 std::vector<float> textures;
 std::vector<float> normals;
+std::vector<unsigned int> indices;
 
 Assimp::Importer importer;
 
 const aiScene *scene;
+aiMesh *mesh;
+aiFace face;
 
 // Create the OpenGL primitives and draw the FBX model
 void drawFBXModel() {
-    GLuint VAO, VBO;
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
 
@@ -57,6 +59,7 @@ void drawFBXModel() {
     glBindVertexArray(0);
     glDeleteVertexArrays(1, &VAO);
     glDeleteBuffers(1, &VBO);
+
 }
 
 // Function to load an FBX file using Assimp
@@ -68,11 +71,9 @@ void loadFBXFile(const char *path) {
         return;
     }
 
-
-
     // Iterate through the meshes in the scene
     for (unsigned int i = 0; i < scene->mNumMeshes; i++) {
-        aiMesh *mesh = scene->mMeshes[i];
+        mesh = scene->mMeshes[i];
 
         // Iterate through the vertices in the mesh
         for (unsigned int j = 0; j < mesh->mNumVertices; j++) {
@@ -84,11 +85,24 @@ void loadFBXFile(const char *path) {
             if (mesh->mTextureCoords[0]) {
                 textures.push_back(mesh->mTextureCoords[0][j].x);
                 textures.push_back(mesh->mTextureCoords[0][j].y);
+            } else {
+                //todo later
+                //glm::vec2(0.0f,0.0f);
             }
             // Add the normal coordinates to the normals vector
             normals.push_back(mesh->mNormals[j].x);
             normals.push_back(mesh->mNormals[j].y);
             normals.push_back(mesh->mNormals[j].z);
+
+
+        }
+        // Now wak through each of the mesh's faces (a face is a mesh its triangle) and retrieve the corresponding vertex indices.
+        for (unsigned int i = 0; i < mesh->mNumFaces; i++) {
+            face = mesh->mFaces[i];
+            // Retrieve all indices of the face and store them in the indices vector
+            for (unsigned int j = 0; j < face.mNumIndices; j++) {
+                indices.push_back(face.mIndices[j]);
+            }
         }
     }
 
@@ -103,44 +117,6 @@ void loadFBXFile(const char *path) {
 }
 
 int main(void) {
-
-//    // Load the FBX file
-//    // Load the FBX file
-//    Assimp::Importer importer;
-//    const aiScene *scene = importer.ReadFile("./reverse-uno-card/source/Reverse.fbx",
-//                                             aiProcess_Triangulate | aiProcess_GenSmoothNormals | aiProcess_FlipUVs);
-//
-//    // Check for errors
-//    if (scene == nullptr || scene->mFlags == AI_SCENE_FLAGS_INCOMPLETE || !scene->mRootNode) {
-//        std::cout << "Error loading FBX: " << importer.GetErrorString() << std::endl;
-//        return -1;
-////
-//    }
-//
-// Process the FBX data
-    //ProcessFBXData(scene);
-
-    loadFBXFile("./reverse-uno-card/source/Reverse.fbx");
-    drawFBXModel();
-
-
-    // Render the model with OpenGL
-    //glBegin(GL_TRIANGLES);
-//    for (int i = 0; i < scene->mNumMeshes; i++) {
-//        const aiMesh *mesh = scene->mMeshes[i];
-//        for (int j = 0; j < mesh->mNumFaces; j++) {
-//            const aiFace &face = mesh->mFaces[j];
-//            for (int k = 0; k < 3; k++) {
-//                aiVector3D vertexPosition = mesh->mVertices[face.mIndices[k]];
-//                aiVector3D vertexNormal = mesh->mNormals[face.mIndices[k]];
-//
-//                glNormal3f(vertexNormal.x, vertexNormal.y, vertexNormal.z);
-//                glVertex3f(vertexPosition.x, vertexPosition.y, vertexPosition.z);
-//            }
-//        }
-//    }
-    //glEnd();
-
     //Initialize window
     bool windowInitialized = initializeWindow();
     if (!windowInitialized) return -1;
@@ -245,7 +221,8 @@ bool initializeVertexbuffer() {
     glGenVertexArrays(1, &VertexArrayID);
     glBindVertexArray(VertexArrayID);
 
-    vertexbuffer_size = 3;
+
+    vertexbuffer_size = sizeof vertices;
     static const GLfloat g_vertex_buffer_data[] = {
             -1.0f, -1.0f, 0.0f,
             1.0f, -1.0f, 0.0f,
@@ -255,7 +232,7 @@ bool initializeVertexbuffer() {
     glGenBuffers(1, &vertexbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(g_vertex_buffer_data), g_vertex_buffer_data, GL_STATIC_DRAW);
-
+*/
     return true;
 }
 
@@ -270,4 +247,3 @@ bool closeWindow() {
     glfwTerminate();
     return true;
 }
-

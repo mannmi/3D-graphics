@@ -1,7 +1,7 @@
 #ifndef ASSIMP_REVISION_H_INC
 #define ASSIMP_REVISION_H_INC
 
-#define GitVersion 0x2a7ceb75
+#define GitVersion 0xc511b0ea
 #define GitBranch "main"
 
 #define VER_MAJOR 5
@@ -16,14 +16,14 @@
 #if (GitVersion == 0)
 #define VER_FILEVERSION_STR         STR(VER_MAJOR) "." STR(VER_MINOR) "." STR(VER_PATCH) "." STR(VER_BUILD)
 #else
-#define VER_FILEVERSION_STR         STR(VER_MAJOR) "." STR(VER_MINOR) "." STR(VER_PATCH) "." STR(VER_BUILD) " (Commit 2a7ceb75)"
+#define VER_FILEVERSION_STR         STR(VER_MAJOR) "." STR(VER_MINOR) "." STR(VER_PATCH) "." STR(VER_BUILD) " (Commit c511b0ea)"
 #endif
 #define VER_COPYRIGHT_STR           "\xA9 2006-2022"
 
 #ifdef  NDEBUG
-#define VER_ORIGINAL_FILENAME_STR   "libassimp-5.dll"
+#define VER_ORIGINAL_FILENAME_STR   "libassimp.dll"
 #else
-#define VER_ORIGINAL_FILENAME_STR   "libassimp-5d.dll"
+#define VER_ORIGINAL_FILENAME_STR   "libassimpd.dll"
 #endif //  NDEBUG
 
 #endif // ASSIMP_REVISION_H_INC
