@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libGLEW_1130.a"
+  "libGLEW_1130d.a"
 )

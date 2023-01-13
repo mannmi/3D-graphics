@@ -92,7 +92,7 @@ splitview_EXTERNAL_OBJECTS =
 
 external/glfw-3.1.2/examples/splitview: external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.o
 external/glfw-3.1.2/examples/splitview: external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/build.make
-external/glfw-3.1.2/examples/splitview: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/examples/splitview: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/examples/splitview: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/examples/splitview: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/examples/splitview: /usr/lib/x86_64-linux-gnu/libX11.so

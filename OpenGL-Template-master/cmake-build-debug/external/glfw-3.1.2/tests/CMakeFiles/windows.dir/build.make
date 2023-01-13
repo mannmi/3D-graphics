@@ -92,7 +92,7 @@ windows_EXTERNAL_OBJECTS =
 
 external/glfw-3.1.2/tests/windows: external/glfw-3.1.2/tests/CMakeFiles/windows.dir/windows.c.o
 external/glfw-3.1.2/tests/windows: external/glfw-3.1.2/tests/CMakeFiles/windows.dir/build.make
-external/glfw-3.1.2/tests/windows: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/tests/windows: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/tests/windows: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/tests/windows: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/tests/windows: /usr/lib/x86_64-linux-gnu/libX11.so

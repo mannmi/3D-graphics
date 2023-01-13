@@ -110,8 +110,8 @@ playground: CMakeFiles/playground.dir/common/shader.cpp.o
 playground: CMakeFiles/playground.dir/build.make
 playground: /usr/lib/x86_64-linux-gnu/libGL.so
 playground: /usr/lib/x86_64-linux-gnu/libGLU.so
-playground: external/glfw-3.1.2/src/libglfw3.a
-playground: external/libGLEW_1130.a
+playground: external/glfw-3.1.2/src/libglfw3d.a
+playground: external/libGLEW_1130d.a
 playground: external/assimp-master/lib/libassimpd.a
 playground: /usr/lib/x86_64-linux-gnu/libm.so
 playground: /usr/lib/x86_64-linux-gnu/libX11.so

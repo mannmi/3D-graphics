@@ -223,22 +223,27 @@ CMakeFiles/playground.dir/playground/playground.cpp.o: ../playground/playground.
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/GL/glu.h \
   /usr/include/GL/gl.h \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/c++/9/stdlib.h \
-  /usr/include/c++/9/cstdlib \
+  ../external/glm-0.9.7.1/glm/detail/type_mat.hpp \
+  ../external/glm-0.9.7.1/glm/detail/precision.hpp \
+  /usr/include/SOIL/SOIL.h \
+  ../external/glm-0.9.7.1/glm/gtc/matrix_transform.hpp \
+  ../external/glm-0.9.7.1/glm/mat4x4.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_mat4x4.hpp \
+  ../external/glm-0.9.7.1/glm/fwd.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_int.hpp \
+  ../external/glm-0.9.7.1/glm/detail/setup.hpp \
+  /usr/include/c++/9/cassert \
   /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
+  /usr/include/assert.h \
+  /usr/include/c++/9/cstddef \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h \
+  /usr/include/c++/9/stdlib.h \
+  /usr/include/c++/9/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -270,9 +275,30 @@ CMakeFiles/playground.dir/playground/playground.cpp.o: ../playground/playground.
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/9/bits/std_abs.h \
-  ../external/glfw-3.1.2/include/GLFW/glfw3.h \
-  ../external/glm-0.9.7.1/glm/glm.hpp \
-  ../external/glm-0.9.7.1/glm/detail/_fixes.hpp \
+  /usr/include/c++/9/type_traits \
+  /usr/include/c++/9/cstdint \
+  ../external/glm-0.9.7.1/glm/detail/type_float.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec4.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec4.inl \
+  /usr/include/c++/9/limits \
+  ../external/glm-0.9.7.1/glm/detail/type_mat4x4.inl \
+  ../external/glm-0.9.7.1/glm/vec2.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec2.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec2.inl \
+  ../external/glm-0.9.7.1/glm/vec3.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec3.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec3.inl \
+  ../external/glm-0.9.7.1/glm/vec4.hpp \
+  ../external/glm-0.9.7.1/glm/gtc/constants.hpp \
+  ../external/glm-0.9.7.1/glm/gtc/constants.inl \
+  ../external/glm-0.9.7.1/glm/gtc/matrix_transform.inl \
+  ../external/glm-0.9.7.1/glm/geometric.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_geometric.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_geometric.inl \
+  ../external/glm-0.9.7.1/glm/detail/func_exponential.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec1.hpp \
+  ../external/glm-0.9.7.1/glm/detail/type_vec1.inl \
   /usr/include/c++/9/cmath \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/ext/type_traits.h \
@@ -286,44 +312,18 @@ CMakeFiles/playground.dir/playground/playground.cpp.o: ../playground/playground.
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/9/climits \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/c++/9/cfloat \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/cassert \
-  /usr/include/assert.h \
-  ../external/glm-0.9.7.1/glm/fwd.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_int.hpp \
-  ../external/glm-0.9.7.1/glm/detail/setup.hpp \
-  /usr/include/c++/9/cstddef \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/xmmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/mm_malloc.h \
-  /usr/include/c++/9/type_traits \
-  /usr/include/c++/9/cstdint \
-  ../external/glm-0.9.7.1/glm/detail/type_float.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec.hpp \
-  ../external/glm-0.9.7.1/glm/detail/precision.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_mat.hpp \
-  ../external/glm-0.9.7.1/glm/vec2.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec2.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec2.inl \
-  ../external/glm-0.9.7.1/glm/vec3.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec3.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec3.inl \
-  ../external/glm-0.9.7.1/glm/vec4.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec4.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec4.inl \
+  ../external/glm-0.9.7.1/glm/detail/func_exponential.inl \
+  ../external/glm-0.9.7.1/glm/detail/func_vector_relational.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_vector_relational.inl \
+  ../external/glm-0.9.7.1/glm/detail/_vectorize.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_common.hpp \
+  ../external/glm-0.9.7.1/glm/detail/_fixes.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_common.inl \
+  ../external/glm-0.9.7.1/glm/trigonometric.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_trigonometric.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_trigonometric.inl \
+  ../external/glm-0.9.7.1/glm/matrix.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_matrix.hpp \
   ../external/glm-0.9.7.1/glm/mat2x2.hpp \
   ../external/glm-0.9.7.1/glm/detail/type_mat2x2.hpp \
   ../external/glm-0.9.7.1/glm/detail/type_mat2x2.inl \
@@ -348,35 +348,41 @@ CMakeFiles/playground.dir/playground/playground.cpp.o: ../playground/playground.
   ../external/glm-0.9.7.1/glm/mat4x3.hpp \
   ../external/glm-0.9.7.1/glm/detail/type_mat4x3.hpp \
   ../external/glm-0.9.7.1/glm/detail/type_mat4x3.inl \
-  ../external/glm-0.9.7.1/glm/mat4x4.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_mat4x4.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_mat4x4.inl \
-  ../external/glm-0.9.7.1/glm/trigonometric.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_trigonometric.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_trigonometric.inl \
-  ../external/glm-0.9.7.1/glm/detail/_vectorize.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec1.hpp \
-  ../external/glm-0.9.7.1/glm/detail/type_vec1.inl \
-  ../external/glm-0.9.7.1/glm/exponential.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_exponential.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_exponential.inl \
-  ../external/glm-0.9.7.1/glm/detail/func_vector_relational.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_vector_relational.inl \
-  ../external/glm-0.9.7.1/glm/common.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_common.hpp \
+  ../external/glm-0.9.7.1/glm/detail/func_matrix.inl \
+  ../external/glm-0.9.7.1/glm/gtx/transform.inl \
+  /usr/include/stdio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+  ../external/glfw-3.1.2/include/GLFW/glfw3.h \
+  ../external/glm-0.9.7.1/glm/glm.hpp \
   ../external/glm-0.9.7.1/glm/detail/_fixes.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_common.inl \
+  /usr/include/c++/9/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/c++/9/cfloat \
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/float.h \
+  ../external/glm-0.9.7.1/glm/exponential.hpp \
+  ../external/glm-0.9.7.1/glm/common.hpp \
   ../external/glm-0.9.7.1/glm/packing.hpp \
   ../external/glm-0.9.7.1/glm/detail/func_packing.hpp \
   ../external/glm-0.9.7.1/glm/detail/func_packing.inl \
   ../external/glm-0.9.7.1/glm/detail/type_half.hpp \
   ../external/glm-0.9.7.1/glm/detail/type_half.inl \
-  ../external/glm-0.9.7.1/glm/geometric.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_geometric.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_geometric.inl \
-  ../external/glm-0.9.7.1/glm/matrix.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_matrix.hpp \
-  ../external/glm-0.9.7.1/glm/detail/func_matrix.inl \
   ../external/glm-0.9.7.1/glm/vector_relational.hpp \
   ../external/glm-0.9.7.1/glm/integer.hpp \
   ../external/glm-0.9.7.1/glm/detail/func_integer.hpp \
@@ -563,95 +569,11 @@ external/assimp-master/include/assimp/config.h:
 
 ../external/glm-0.9.7.1/glm/detail/func_integer.inl:
 
-../external/assimp-master/include/assimp/postprocess.h:
-
-../external/glm-0.9.7.1/glm/detail/func_matrix.hpp:
-
-../external/glm-0.9.7.1/glm/matrix.hpp:
-
-../external/glm-0.9.7.1/glm/geometric.hpp:
-
 ../external/glm-0.9.7.1/glm/detail/func_packing.inl:
-
-../external/glm-0.9.7.1/glm/detail/func_packing.hpp:
 
 ../external/glm-0.9.7.1/glm/packing.hpp:
 
-../external/glm-0.9.7.1/glm/detail/func_common.inl:
-
-../external/assimp-master/include/assimp/material.inl:
-
-../external/glm-0.9.7.1/glm/detail/func_common.hpp:
-
 ../external/glm-0.9.7.1/glm/common.hpp:
-
-../external/assimp-master/include/assimp/anim.h:
-
-../external/assimp-master/include/assimp/color4.inl:
-
-../external/assimp-master/include/assimp/defs.h:
-
-../external/glm-0.9.7.1/glm/detail/func_vector_relational.hpp:
-
-../external/glm-0.9.7.1/glm/detail/func_exponential.inl:
-
-../external/glm-0.9.7.1/glm/detail/type_vec1.inl:
-
-../external/glm-0.9.7.1/glm/detail/type_vec1.hpp:
-
-../external/glm-0.9.7.1/glm/detail/_vectorize.hpp:
-
-../external/glm-0.9.7.1/glm/trigonometric.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_mat4x4.inl:
-
-../external/glm-0.9.7.1/glm/detail/type_mat4x4.hpp:
-
-../external/assimp-master/include/assimp/matrix4x4.inl:
-
-../external/glm-0.9.7.1/glm/detail/type_mat4x3.inl:
-
-../external/glm-0.9.7.1/glm/detail/type_mat4x3.hpp:
-
-../external/glm-0.9.7.1/glm/mat4x3.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_mat4x2.inl:
-
-../external/glm-0.9.7.1/glm/mat4x2.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_mat3x4.inl:
-
-../external/glm-0.9.7.1/glm/detail/type_mat3x2.inl:
-
-../external/glm-0.9.7.1/glm/vector_relational.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_mat2x4.hpp:
-
-../external/glm-0.9.7.1/glm/mat2x4.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_mat2x3.hpp:
-
-../external/glm-0.9.7.1/glm/mat2x3.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_mat2x2.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_vec4.inl:
-
-../external/glm-0.9.7.1/glm/vec3.hpp:
-
-../external/glm-0.9.7.1/glm/vec2.hpp:
-
-../external/glm-0.9.7.1/glm/detail/precision.hpp:
-
-../external/glm-0.9.7.1/glm/detail/type_int.hpp:
-
-/usr/include/assert.h:
-
-/usr/include/c++/9/cassert:
-
-../external/glm-0.9.7.1/glm/detail/type_vec3.inl:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
 
 /usr/include/c++/9/cfloat:
 
@@ -669,19 +591,109 @@ external/assimp-master/include/assimp/config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
 
+../external/assimp-master/include/assimp/matrix4x4.inl:
+
+../external/glm-0.9.7.1/glm/detail/type_mat4x3.inl:
+
+../external/glm-0.9.7.1/glm/detail/type_mat4x3.hpp:
+
+../external/glm-0.9.7.1/glm/mat4x3.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat4x2.inl:
+
+../external/glm-0.9.7.1/glm/mat4x2.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat3x4.inl:
+
+../external/glm-0.9.7.1/glm/detail/type_mat3x2.inl:
+
+../external/glfw-3.1.2/include/GLFW/glfw3.h:
+
+../external/glm-0.9.7.1/glm/detail/type_mat3x2.hpp:
+
+../external/glm-0.9.7.1/glm/vector_relational.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat2x4.hpp:
+
+../external/glm-0.9.7.1/glm/mat2x4.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat2x3.hpp:
+
+../external/glm-0.9.7.1/glm/mat2x3.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat2x2.hpp:
+
+../external/assimp-master/include/assimp/postprocess.h:
+
+../external/glm-0.9.7.1/glm/detail/func_matrix.hpp:
+
+../external/glm-0.9.7.1/glm/matrix.hpp:
+
+../external/glm-0.9.7.1/glm/trigonometric.hpp:
+
+../external/glm-0.9.7.1/glm/detail/func_common.inl:
+
+../external/assimp-master/include/assimp/material.inl:
+
+../external/glm-0.9.7.1/glm/detail/func_common.hpp:
+
+../external/glm-0.9.7.1/glm/detail/_vectorize.hpp:
+
+../external/assimp-master/include/assimp/anim.h:
+
+../external/assimp-master/include/assimp/color4.inl:
+
+../external/assimp-master/include/assimp/defs.h:
+
+../external/glm-0.9.7.1/glm/detail/func_vector_relational.hpp:
+
+../external/glm-0.9.7.1/glm/detail/func_exponential.inl:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-../external/assimp-master/include/assimp/camera.h:
+../external/glm-0.9.7.1/glm/detail/type_vec1.inl:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
+../external/glm-0.9.7.1/glm/detail/type_vec1.hpp:
+
+../external/glm-0.9.7.1/glm/geometric.hpp:
+
+../external/glm-0.9.7.1/glm/gtc/matrix_transform.inl:
+
+../external/glm-0.9.7.1/glm/detail/func_packing.hpp:
+
+../external/glm-0.9.7.1/glm/gtc/constants.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/float.h:
+
+../external/glm-0.9.7.1/glm/detail/type_vec3.inl:
+
+../external/glm-0.9.7.1/glm/vec2.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat4x4.inl:
+
+../external/glm-0.9.7.1/glm/vec3.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_vec4.inl:
+
+../external/assimp-master/include/assimp/camera.h:
 
 /usr/include/c++/9/climits:
 
 ../external/glm-0.9.7.1/glm/detail/_fixes.hpp:
 
-../external/glm-0.9.7.1/glm/detail/type_mat3x2.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/9/include/emmintrin.h:
 
-../external/glfw-3.1.2/include/GLFW/glfw3.h:
+/usr/include/assert.h:
+
+/usr/include/c++/9/cassert:
+
+../external/glm-0.9.7.1/glm/detail/type_int.hpp:
+
+../external/glm-0.9.7.1/glm/detail/type_mat4x4.hpp:
+
+/usr/include/SOIL/SOIL.h:
+
+../external/glm-0.9.7.1/glm/detail/precision.hpp:
 
 ../playground/playground.cpp:
 
@@ -699,9 +711,9 @@ external/assimp-master/include/assimp/config.h:
 
 ../external/glm-0.9.7.1/glm/detail/func_trigonometric.inl:
 
-../external/glm-0.9.7.1/glm/detail/type_vec2.hpp:
-
 /usr/include/c++/9/cmath:
+
+../external/glm-0.9.7.1/glm/detail/type_vec2.hpp:
 
 /usr/include/c++/9/bits/ostream_insert.h:
 
@@ -756,6 +768,8 @@ external/assimp-master/include/assimp/config.h:
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/9/bits/stl_vector.h:
+
+../external/glm-0.9.7.1/glm/gtc/matrix_transform.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -829,9 +843,9 @@ external/assimp-master/include/assimp/config.h:
 
 /usr/include/c++/9/bits/move.h:
 
-../external/glm-0.9.7.1/glm/detail/func_exponential.hpp:
-
 /usr/include/limits.h:
+
+../external/glm-0.9.7.1/glm/detail/func_exponential.hpp:
 
 /usr/include/c++/9/bits/stl_algobase.h:
 
@@ -1073,6 +1087,8 @@ external/assimp-master/include/assimp/config.h:
 
 /usr/include/c++/9/cerrno:
 
+../external/glm-0.9.7.1/glm/gtc/constants.inl:
+
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
@@ -1082,6 +1098,8 @@ external/assimp-master/include/assimp/config.h:
 /usr/include/strings.h:
 
 /usr/include/c++/9/vector:
+
+../external/glm-0.9.7.1/glm/gtx/transform.inl:
 
 ../external/glm-0.9.7.1/glm/detail/type_mat3x3.inl:
 

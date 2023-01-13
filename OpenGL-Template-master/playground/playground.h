@@ -3,12 +3,18 @@
 
 // Include GLEW
 #include <GL/glew.h>
+#include "glm/detail/type_mat.hpp"
 
 //some global variables for handling the vertex buffer
 GLuint vertexbuffer;
 GLuint VertexArrayID;
+GLuint VAO_id, VBO_id, EBO_id;
 GLuint vertexbuffer_size;
 const void *g_vertex_buffer_data;
+
+
+float deg = 0;
+float deg2 = 0;
 
 //program ID of the shaders, required for handling the shaders with OpenGL
 GLuint programID;
@@ -21,6 +27,18 @@ bool initializeVertexbuffer(); //<<< initializes the vertex buffer array and bin
 bool cleanupVertexbuffer(); //<<< frees all recources from the vertex buffer
 bool closeWindow(); //<<< Closes the OpenGL window and terminates GLFW
 
-GLuint VAO, VBO;
+void drawFBXModel();
+
+GLuint VAO, VBO, EBO;
+
+
+GLuint vertexBuffer;
+GLuint normalBuffer;
+GLuint textureBuffer;
+GLuint indexBuffer;
+GLuint texture;
+GLuint textureID;
+
 
 #endif
+

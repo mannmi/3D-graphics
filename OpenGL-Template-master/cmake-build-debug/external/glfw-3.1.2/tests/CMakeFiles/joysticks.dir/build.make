@@ -92,7 +92,7 @@ joysticks_EXTERNAL_OBJECTS =
 
 external/glfw-3.1.2/tests/joysticks: external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/joysticks.c.o
 external/glfw-3.1.2/tests/joysticks: external/glfw-3.1.2/tests/CMakeFiles/joysticks.dir/build.make
-external/glfw-3.1.2/tests/joysticks: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/tests/joysticks: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/tests/joysticks: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/tests/joysticks: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/tests/joysticks: /usr/lib/x86_64-linux-gnu/libX11.so

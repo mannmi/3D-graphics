@@ -92,7 +92,7 @@ title_EXTERNAL_OBJECTS =
 
 external/glfw-3.1.2/tests/title: external/glfw-3.1.2/tests/CMakeFiles/title.dir/title.c.o
 external/glfw-3.1.2/tests/title: external/glfw-3.1.2/tests/CMakeFiles/title.dir/build.make
-external/glfw-3.1.2/tests/title: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/tests/title: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/tests/title: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/tests/title: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/tests/title: /usr/lib/x86_64-linux-gnu/libX11.so

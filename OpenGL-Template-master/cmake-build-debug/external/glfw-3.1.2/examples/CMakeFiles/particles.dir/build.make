@@ -124,7 +124,7 @@ external/glfw-3.1.2/examples/particles: external/glfw-3.1.2/examples/CMakeFiles/
 external/glfw-3.1.2/examples/particles: external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o
 external/glfw-3.1.2/examples/particles: external/glfw-3.1.2/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o
 external/glfw-3.1.2/examples/particles: external/glfw-3.1.2/examples/CMakeFiles/particles.dir/build.make
-external/glfw-3.1.2/examples/particles: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/examples/particles: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/examples/particles: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/examples/particles: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/examples/particles: /usr/lib/x86_64-linux-gnu/libX11.so

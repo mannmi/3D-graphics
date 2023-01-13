@@ -1,16 +1,4 @@
 /home/mannmi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master -B /home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 CMake Warning (dev) at /home/mannmi/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/FindOpenGL.cmake:315 (message):
   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
@@ -31,7 +19,6 @@ Call Stack (most recent call first):
   CMakeLists.txt:5 (find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
 CMake Deprecation Warning at external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy):
   The OLD behavior for policy CMP0042 will be removed from a future version
   of CMake.
@@ -42,31 +29,9 @@ CMake Deprecation Warning at external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy)
   behavior and not rely on setting a policy to OLD.
 
 
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - found
--- Found Threads: TRUE  
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using X11 for window creation
 -- Using GLX for context creation
--- Found X11: /usr/include   
--- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
--- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
--- Looking for gethostbyname
--- Looking for gethostbyname - found
--- Looking for connect
--- Looking for connect - found
--- Looking for remove
--- Looking for remove - found
--- Looking for shmat
--- Looking for shmat - found
--- Looking for IceConnectionNumber in ICE
--- Looking for IceConnectionNumber in ICE - found
 CMake Deprecation Warning at CMakeLists.txt:26 (cmake_policy):
   The OLD behavior for policy CMP0026 will be removed from a future version
   of CMake.
@@ -80,7 +45,6 @@ CMake Deprecation Warning at CMakeLists.txt:26 (cmake_policy):
 Start of ASSIMP Build
 -- Shared libraries disabled
 -- Looking for ZLIB...
--- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
 -- Checking for module 'zzip-zlib-config'
 --   No package 'zzip-zlib-config' found
 -- Found ZLIB: optimized;/usr/lib/x86_64-linux-gnu/libz.a;debug;/usr/lib/x86_64-linux-gnu/libz.a

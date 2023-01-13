@@ -108,7 +108,7 @@ events_EXTERNAL_OBJECTS =
 external/glfw-3.1.2/tests/events: external/glfw-3.1.2/tests/CMakeFiles/events.dir/events.c.o
 external/glfw-3.1.2/tests/events: external/glfw-3.1.2/tests/CMakeFiles/events.dir/__/deps/getopt.c.o
 external/glfw-3.1.2/tests/events: external/glfw-3.1.2/tests/CMakeFiles/events.dir/build.make
-external/glfw-3.1.2/tests/events: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/tests/events: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/tests/events: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/tests/events: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/tests/events: /usr/lib/x86_64-linux-gnu/libX11.so

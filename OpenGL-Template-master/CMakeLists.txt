@@ -134,7 +134,7 @@ message("${Green}Start of ASSIMP Build${ColourReset}")
 ##
 
 
-#include(FetchContent)
+include(FetchContent)
 
 #set(ASSIMP_LIBRARY_DIRS "${PROJECT_SOURCE_DIR}/libs/assimp-build/code")
 #set(ASSIMP_INCLUDE_DIRS_assimp-build "${PROJECT_SOURCE_DIR}/libs/assimp-build/include/")
@@ -147,9 +147,6 @@ message("${Green}Start of ASSIMP Build${ColourReset}")
 
 #FetchContent_MakeAvailable(assimp)
 #include_directories(${FETCHCONTENT_BASE_DIR}/assimp/include)
-
-
-
 
 
 #target_include_directories(playground PRIVATE
@@ -169,7 +166,6 @@ message("${Green}Start of ASSIMP Build${ColourReset}")
 #target_link_libraries(playground assimp)
 
 
-
 #target_link_libraries(playground assimp)
 
 #target_link_libraries(playground assimp::assimp)
@@ -187,10 +183,20 @@ if (assimp_FOUND)
     set(ASSIMP_LIBRARY "assimp")
     add_library(${ASSIMP_LIBRARY} SHARED IMPORTED)
     set_target_properties(${ASSIMP_LIBRARY} PROPERTIES IMPORTED_LOCATION "${ASSIMP_LIBRARY_DIRS}/libassimp.so")
-endif(assimp_FOUND)
-
+endif (assimp_FOUND)
 
 
 ADD_SUBDIRECTORY(external/assimp-master/)
 set(BUILD_SHARED_LIBS ON)
 TARGET_LINK_LIBRARIES(playground assimp)
+
+FetchContent_Declare(
+        SOIL
+        GIT_REPOSITORY https://github.com/littlstar/soil.git
+        GIT_TAG master
+)
+
+FetchContent_MakeAvailable(SOIL)
+#target_include_directories(playground ${SOIL_INCLUDE_DIRS})
+#target_link_libraries(playground ${SOIL_LIBRARIES})
+target_link_libraries(playground SOIL)

@@ -274,8 +274,8 @@ external/glfw-3.1.2/tests/clean: external/glfw-3.1.2/tests/CMakeFiles/windows.di
 # Target rules for target CMakeFiles/playground.dir
 
 # All Build rule for target.
-CMakeFiles/playground.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 CMakeFiles/playground.dir/all: external/CMakeFiles/GLEW_1130.dir/all
+CMakeFiles/playground.dir/all: external/glfw-3.1.2/src/CMakeFiles/glfw.dir/all
 CMakeFiles/playground.dir/all: external/assimp-master/code/CMakeFiles/assimp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build

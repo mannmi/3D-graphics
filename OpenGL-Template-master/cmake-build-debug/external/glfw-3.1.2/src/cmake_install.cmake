@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/glfw-3.1.2/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mannmi/CLionProjects/3D-graphics/OpenGL-Template-master/cmake-build-debug/external/glfw-3.1.2/src/libglfw3d.a")
 endif()
 

@@ -108,7 +108,7 @@ gamma_EXTERNAL_OBJECTS =
 external/glfw-3.1.2/tests/gamma: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.o
 external/glfw-3.1.2/tests/gamma: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o
 external/glfw-3.1.2/tests/gamma: external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/build.make
-external/glfw-3.1.2/tests/gamma: external/glfw-3.1.2/src/libglfw3.a
+external/glfw-3.1.2/tests/gamma: external/glfw-3.1.2/src/libglfw3d.a
 external/glfw-3.1.2/tests/gamma: /usr/lib/x86_64-linux-gnu/librt.so
 external/glfw-3.1.2/tests/gamma: /usr/lib/x86_64-linux-gnu/libm.so
 external/glfw-3.1.2/tests/gamma: /usr/lib/x86_64-linux-gnu/libX11.so
