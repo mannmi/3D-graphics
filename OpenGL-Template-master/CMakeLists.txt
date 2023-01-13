@@ -197,6 +197,4 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(SOIL)
-#target_include_directories(playground ${SOIL_INCLUDE_DIRS})
-#target_link_libraries(playground ${SOIL_LIBRARIES})
 target_link_libraries(playground SOIL)

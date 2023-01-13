@@ -31,6 +31,4 @@ void main()
      vec3 MaterialSpecularColor = MaterialDiffuseColor * pow(cosAlpha,5);
 	 // Output color = metal
 	 color = MaterialAmbientColor + MaterialSpecularColor + MaterialDiffuseColor * cosTheta;
-     // Output color = color of the texture at the specified UV
-     //color = texture( myTextureSampler, UV ).rgb;
 }
