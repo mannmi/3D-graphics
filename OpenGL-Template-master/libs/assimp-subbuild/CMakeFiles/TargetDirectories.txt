@@ -1,0 +1,3 @@
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate.dir
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/edit_cache.dir
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=C:/Users/root/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/bin/cmake.exe;-P;F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/tmp/assimp-populate-gitclone.cmake
+source_dir=F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-src
+work_dir=F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs
+repository=https://github.com/assimp/assimp.git
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=NEW
+

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate-complete.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-download.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test.rule"
+		},
+		{
+			"file" : "F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"assimp-populate"
+		],
+		"name" : "assimp-populate"
+	}
+}

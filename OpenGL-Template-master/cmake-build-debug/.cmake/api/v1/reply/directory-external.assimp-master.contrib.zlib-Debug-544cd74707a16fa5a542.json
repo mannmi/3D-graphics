@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"external/assimp-master/contrib/zlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 201,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/assimp-master/contrib/zlib/libzlibstaticd.a"
+			],
+			"targetId" : "zlibstatic::@b9220298d19a612d1499",
+			"targetIndex" : 28,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/assimp-master/contrib/zlib",
+		"source" : "external/assimp-master/contrib/zlib"
+	}
+}

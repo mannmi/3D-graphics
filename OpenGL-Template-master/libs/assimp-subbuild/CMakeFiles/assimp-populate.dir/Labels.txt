@@ -1,0 +1,14 @@
+# Target labels
+ assimp-populate
+# Source files and their labels
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/CMakeFiles/assimp-populate-complete.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-build.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-configure.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-download.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-install.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-mkdir.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-patch.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-test.rule
+F:/CLionProjects/3D-graphics/OpenGL-Template-master/libs/assimp-subbuild/assimp-populate-prefix/src/assimp-populate-stamp/assimp-populate-update.rule
